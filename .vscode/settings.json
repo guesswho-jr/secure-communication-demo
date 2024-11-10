@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "rsa.h": "c",
+        "sha.h": "c",
+        "stdio.h": "c",
+        "evp.h": "c",
+        "stdlib.h": "c",
+        "main_part.h": "c",
+        "aes.h": "c",
+        "constants.h": "c",
+        "network.h": "c"
+    }
+}
