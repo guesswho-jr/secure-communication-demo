@@ -5,7 +5,6 @@
 #include <math.h>
 #include <gmp.h>
 #include <time.h>
-#include <openssl/rsa.h>
 #include "constants.h"
 #include "utils.h"
 
