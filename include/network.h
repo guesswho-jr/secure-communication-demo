@@ -92,7 +92,7 @@ void send_encrypted_string(char *message, mpz_t n, mpz_t e, int sockfd, int mess
     calculate_rsa(KEY, AES_KEY_SIZE, n, e, key_enc);
     calculate_rsa(IV, AES_IV_SIZE, n, e, iv_enc);
     char sep = '-';
-    char end[] = "E";
+    // char end[] = "E";
 
     u_char *buffer = (u_char *)error_checked_malloc(message_length + 1);
 

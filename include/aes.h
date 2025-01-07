@@ -1,9 +1,6 @@
 #include <openssl/evp.h>
 #include <openssl/err.h>
 
-// u_char *key[AES_KEY_SIZE];
-// u_char *iv[AES_IV_SIZE];
-
 int aes_encrypt(u_char *plaintext, int plaintext_length, u_char *key, u_char *iv, u_char *ciphertext)
 {
     EVP_CIPHER_CTX *ctx;
